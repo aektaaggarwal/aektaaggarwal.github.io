@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- <title>Prof. Dr. Aekta Aggarwal's Homepage</title> -->
+        <title>Prof. Dr. Aekta Aggarwal's Homepage</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- Bootstrap -->
             <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -9,28 +9,136 @@
         <script src="https://kit.fontawesome.com/60848b8342.js" crossorigin="anonymous"></script>
     </head>
 
+    <body>
+        <!--
+<nav class="navbar-wrapper navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+                <!~~ Brand and toggle get grouped for better mobile display ~~>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand"><b>Deep Ray</b></a>
+                </div>
 
-  <body>
-    <nav>
-<ul>
-<li><a href="/">Home</a></li>
-<li><a href="/about">About</a></li>
-<li><a href="/cv">CV</a></li>
-<li><a href="/blog">Blog</a></li>
-</ul>
-    </nav>
-<div class="container">
+                <!~~ Collect the nav links, forms, and other content for toggling ~~>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="active"><a href="#"> Home</a></li>
+                        <!~~<li><a href="about.html"> Personal</a></li>~~>
+                        <li><a href="cv.html"> CV</a></li>
+                        <!~~ <li><a href="research.html"> Research</a></li> ~~>
+                        <li><a href="publications.html"> Publications</a></li>
+                        <li><a href="codes.html"> Codes</a></li>
+                        <li><a href="teaching.html"> Teaching</a></li>
+                        <li><a href="contact.html"> Contact</a></li>
+                    </ul>
+                </div><!~~ /.navbar-collapse ~~>
+            </div>
+        </nav>
+ -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+        <div class="container">
+            <a class="navbar-brand" href="#" mb-0 h1>Deep Ray</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           		 <span class="navbar-toggler-icon"></span>
+            </button>
 
-  {{ content }}
+  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    	<ul class="navbar-nav mr-auto ">
+       		 <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="cv.html">CV</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="teaching.html">Teaching</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="publications.html">Publications</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="talks.html">Talks</a>
+             </li>
 
-</div>
 
-  <footer>
-   <ul>
-   <li><a href="mailto:aektaaggarwal@iimidr.ac.in">email</a></li>
-   <li><a href="https://github.com/aektaaggarwal">github.com/aektaaggarwal</a></li>
-   </ul>
-  </footer>
-  </body>
+        	 <!--
+<li class="nav-item">
+            	    <a class="nav-link" href="contact.html">Contact</a>
+             </li>
+ -->
+        </div>
+        </div>
+        </nav>
 
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <center><img class="img-thumbnail" alt="Thumbnail Image" src="images/Deep_pic.jpg"></center>
+
+                    <center><hr><b>Postdoctoral Research Associate</b><br>
+                    Computational and Applied Mathematics<br>
+                    Rice University, Houston<hr><br><center>
+                    <b>Office:</b> Room 2002, Duncan Hall <br><br>
+					<a href = "mailto:aektaaggarwal@iimidr.ac.in" style="color:#f2b700"><i class="fas fa-envelope fa-2x"></i></a> &ensp;
+					<a href = "https://www.linkedin.com/in/aektaaggarwal" style="color:#2867B2"><i class="fab fa-linkedin fa-2x"></i></a> &ensp;
+					<a href = "https://www.researchgate.net/profile/Deep_Ray3" style="color:#5ddfae"><i class="fab fa-researchgate fa-2x"></i></a> &ensp;
+					<a href = "https://scholar.google.com/citations?user=7wZjDQ4AAAAJ&hl=en&oi=sra" style="color:blue"><i class="ai ai-google-scholar ai-2x"></i></a> &ensp;
+					<a href = "https://orcid.org/0000-0002-8460-9862" style="color:#aee74a"><i class="fab fa-orcid fa-2x"></i></a>
+
+
+
+                </div>
+                <div class="col-md-6">
+
+                    <p class="text-justify">Hi! I am a postdoctoral researcher in the group headed by <a href="http://compm.rice.edu/people-2/beatrice-riviere/">Beatrice Riviere</a>
+                      at the department of <a href="https://www.caam.rice.edu/">Computational and Applied Mathematics</a>, Rice University. My research involves the study of numerical techniques for partial differential equations. A few key topics
+                      are listed below.
+                      <ul>
+                        <li><b>Hyperbolic conservation laws: </b>
+							<p class="text-justify">My primary objective is to develop numerical methods for conservation laws, which satisfy important
+							physical model properties, such as entropy stabilty and kinetic energy preservation. In particular, I have developed high-order
+							entropy-stable finite volume schemes for the compressible Euler equations, and extensions accomodate the viscous terms of the Navier-Stokes model.
+
+
+                        </li>
+
+                        <li><b>Data-driven computing:</b>
+                            <p class="text-justify">I am interested in using machine learning techniques to replace and resolve bottlenecks in several existing numerical
+                            methods. This becomes particularly relevant for techniques that require the specification of problem-dependent
+                            parameters, or contain computationally expensive sub-algorithms.
+
+                        </li>
+
+                        <li><b>Uncertainty quantification: </b>
+                            <p class="text-justify">I am interested in quantifying the uncertainty in hyperbolic models (and their extensions), using various
+                            Monte-Carlo techniques.
+
+                        </li>
+
+
+                      </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                   <center><font face="lucida" size="5" color="GoldenRod">&ldquo;In theory, there is no difference between theory and practice. But in practice, there is.&rdquo; </font></center>
+                   <center><font size="2">Anonymous </font></center>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
 </html>
