@@ -3,76 +3,32 @@
   <head>
     <title>{{ page.title }}</title>
 
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-        <!-- Bootstrap -->
-        <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
-        <!-- <link rel="stylesheet" href="academicons-1.8.6/css/academicons.min.css"/> -->
-    <!-- <script src="https://kit.fontawesome.com/60848b8342.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+
   </head>
 
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
-    <div class="container">
-        <a class="navbar-brand" href="#" mb-0 h1>Aekta Aggarwal</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-        </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav mr-auto ">
-       <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="cv.html">CV</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="teaching.html">Teaching</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="publications.html">Publications</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="talks.html">Talks</a>
-         </li>
-
-
-       <!--
-  <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-         </li>
-  -->
-    </div>
-    </div>
+    <nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/cv">CV</a></li>
+<li><a href="/blog">Blog</a></li>
+</ul>
     </nav>
+<div class="container">
 
-    <br>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <center><img class="img-thumbnail" alt="Thumbnail Image" src="images/aekta_aggarwal_83.jpg"></center>
-                <center><hr><b>Assistant Professor</b><br>
-                Operations Management and Quantitative Techniques<br>
-                IIM Indore, Indore<hr><br><center>
-                <b>Office:</b> M102, Academic Block<br><br>
-      <a href = "mailto:aektaaggarwal@iimidr.ac.in" style="color:#f2b700"><i class="fas fa-envelope fa-2x"></i></a> &ensp;
-      <a href = "https://www.linkedin.com/in/aektaaggarwal" style="color:#2867B2"><i class="fab fa-linkedin fa-2x"></i></a> &ensp;
-      <a href = "https://www.researchgate.net/profile/Aekta_Aggarwal" style="color:#5ddfae"><i class="fab fa-researchgate fa-2x"></i></a> &ensp;
-      <a href = "https://scholar.google.com/citations?user=SsM69nEAAAAJ&hl=en" style="color:blue"><i class="ai ai-google-scholar ai-2x"></i></a> &ensp;
-      <a href = "https://orcid.org/0000-0002-0710-6647" style="color:#aee74a"><i class="fab fa-orcid fa-2x"></i></a>
+  {{ content }}
 
+</div>
 
-
-            </div>
-
-        </div>
-    </div>
-    <br>
-
-    <!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script> -->
+  <footer>
+   <ul>
+   <li><a href="mailto:aektaaggarwal@iimidr.ac.in">email</a></li>
+   <li><a href="https://github.com/aektaaggarwal">github.com/aektaaggarwal</a></li>
+   </ul>
+  </footer>
   </body>
 
 </html>
