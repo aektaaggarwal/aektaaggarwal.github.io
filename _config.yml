@@ -1,3 +1,1 @@
-name: Prof. Dr. Aekta Aggarwal, Applied Mathematician interested in problems from computing, real life, business and Mathematics
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+theme: jekyll-theme-minimal
