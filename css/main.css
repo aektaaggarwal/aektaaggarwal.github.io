@@ -87,13 +87,13 @@ html,h1,h2,h3,h4,h5,h6,a{
 	position: absolute;
 	left: 115px;
 }
-.about .desc{
+/* .about .desc{
 	padding: 2em;
 	border-left:4px solid #10828C;
 }
 .about .desc h3{
 	color: #10828C;
-}
+} */
 .about .desc p{
 	line-height:2;
 	color:#888;
